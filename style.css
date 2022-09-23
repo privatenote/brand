@@ -6,6 +6,11 @@
 
 .notion-header {
   position: static !important;
+  background-color: #F9F9F9 !important;
+}
+
+.notion-frame {
+  background-color: #F9F9F9 !important;
 }
 
 /* Custom Elements */
