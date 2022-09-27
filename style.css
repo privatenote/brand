@@ -16,6 +16,7 @@
 /* Custom Elements */
 
 .pn-top {
+  display: block !important;
   position: fixed;
   top: 0;
   left: 0;
