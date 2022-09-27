@@ -13,6 +13,13 @@
   background-color: #F9F9F9 !important;
 }
 
+@media screen and (max-width: 767px) {
+  #ch-plugin-launcher {
+    margin-right: calc(6vw - 5px);
+    margin-bottom: 64px;
+  }
+}
+
 /* Custom Elements */
 
 .pn-top {
