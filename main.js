@@ -1,5 +1,17 @@
 window.PNOTE_BASE_URL = window.PNOTE_BASE_URL || '/';
 
+function handleHamburgerClick(e) {
+  e.preventDefault();
+  const menu = document.querySelector('.mobile-menu');
+  menu.style.display = 'block';
+}
+
+function handleCloseClick(e) {
+  e.preventDefault();
+  const menu = document.querySelector('.mobile-menu');
+  menu.style.display = 'none';
+}
+
 const getBodyHtml = async () => {
   const baseUrl = window.PNOTE_BASE_URL;
   const res = await fetch(`${baseUrl}body.html?t=${Date.now()}`);

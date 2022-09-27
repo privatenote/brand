@@ -65,16 +65,6 @@
 .pn-top .menu li {
   margin-left: 60px;
 }
-@media screen and (max-width: 1199px) {
-  .pn-top .menu li {
-    margin-left: 40px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .pn-top .menu li {
-    margin-left: 20px;
-  }
-}
 
 .pn-top .menu a {
   display: flex;
@@ -82,4 +72,58 @@
   height: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+.pn-top .hamburger {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .pn-top .menu {
+    display: none;
+  }
+  .pn-top .hamburger {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+.pn-top .mobile-menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #2F2935;
+  color: white;
+}
+
+.pn-top .mobile-menu .close {
+  float: right;
+  margin-top: 16px;
+  padding: 12px;
+}
+
+.pn-top .mobile-menu h3 {
+  margin: 16px 36px 0 36px;
+  height: 63px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.pn-top .mobile-menu h3 svg {
+  flex-shrink: 0;
+}
+
+.pn-top .mobile-menu ul {
+  list-style-type: none;
+  margin: 14px 0 0 0;
+}
+
+.pn-top .mobile-menu a {
+  color: white;
+  font-size: 18px;
+  line-height: 36px;
 }
