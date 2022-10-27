@@ -3,13 +3,17 @@ window.PNOTE_BASE_URL = window.PNOTE_BASE_URL || '/';
 function handleHamburgerClick(e) {
   e.preventDefault();
   const menu = document.querySelector('.mobile-menu');
+  const sidebar = document.querySelector(".sidebar-wrapper");
   menu.style.display = 'block';
+  sidebar[0].style.display = 'none';
 }
 
 function handleCloseClick(e) {
   e.preventDefault();
   const menu = document.querySelector('.mobile-menu');
+  const sidebar = document.querySelector(".sidebar-wrapper");
   menu.style.display = 'none';
+  sidebar[0].style.display = 'flex';
 }
 
 const getBodyHtml = async () => {
