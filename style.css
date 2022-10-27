@@ -9,10 +9,6 @@
   background-color: #F9F9F9 !important;
 }
 
-.notion-frame {
-  background-color: #F9F9F9 !important;
-}
-
 @media screen and (max-width: 767px) {
   #ch-plugin-launcher {
     margin-right: calc(6vw - 5px);
@@ -71,7 +67,7 @@
 }
 
 .pn-top .menu li {
-  margin-left: 60px;
+  margin-left: 54px;
 }
 
 .pn-top .menu a {
