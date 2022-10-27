@@ -214,6 +214,6 @@
     padding-right: 40px;
   }
   .sidebar-wrapper {
-    display: none;
+    display: none !important;
   }
 }
