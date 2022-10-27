@@ -10,6 +10,10 @@
   background-color: #F9F9F9 !important;
 }
 
+#ch-plugin-launcher {
+  margin-right: 64px;
+}
+
 @media screen and (max-width: 767px) {
   #ch-plugin-launcher {
     margin-right: calc(6vw - 5px);
