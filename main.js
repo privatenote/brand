@@ -5,7 +5,7 @@ function handleHamburgerClick(e) {
   const menu = document.querySelector('.mobile-menu');
   const sidebar = document.querySelector(".sidebar-wrapper");
   menu.style.display = 'block';
-  sidebar[0].style.display = 'none';
+  sidebar[0].style.display = 'none !imporatnt';
 }
 
 function handleCloseClick(e) {
@@ -13,7 +13,7 @@ function handleCloseClick(e) {
   const menu = document.querySelector('.mobile-menu');
   const sidebar = document.querySelector(".sidebar-wrapper");
   menu.style.display = 'none';
-  sidebar[0].style.display = 'flex';
+  sidebar[0].style.display = 'flex !imporatnt';
 }
 
 const getBodyHtml = async () => {
