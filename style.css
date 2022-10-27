@@ -16,8 +16,7 @@
 
 @media screen and (max-width: 767px) {
   #ch-plugin-launcher {
-    margin-right: calc(6vw - 5px);
-    margin-bottom: 64px;
+    margin-right: 0;
   }
 }
 
