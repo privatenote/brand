@@ -103,38 +103,117 @@
   top: 0;
   width: 100%;
   height: 100vh;
+  margin: 0;
+  padding: 0 36px;
   background-color: #2F2935;
   color: white;
+  box-sizing: border-box;
+  z-index: 10;
+  transform: translateZ(10px);
 }
 
-.pn-top .mobile-menu .close {
-  float: right;
-  margin-top: 16px;
+.pn-top .mobile-menu * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pn-top .mobile-menu .mobile-menu-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.pn-top .mobile-menu .mobile-menu-top-wrapper .close {
+  margin-top: 15px;
+  margin-right: -12px;
   padding: 12px;
 }
 
-.pn-top .mobile-menu h3 {
-  margin: 16px 36px 0 36px;
-  height: 63px;
-  border-bottom: 1px solid white;
-  display: flex;
-  align-items: center;
+.pn-top .mobile-menu .mobile-menu-top-wrapper h3 {
+  padding-top: 27px;
+  font-weight: 400;
   white-space: nowrap;
 }
 
-.pn-top .mobile-menu h3 svg {
-  flex-shrink: 0;
+.pn-top .mobile-menu .mobile-menu-top-wrapper h3 b {
+  font-weight: 700;
 }
 
 .pn-top .mobile-menu ul {
   list-style-type: none;
-  margin: 14px 0 0 0;
 }
 
-.pn-top .mobile-menu a {
-  color: white;
-  font-size: 18px;
-  line-height: 36px;
+.pn-top .mobile-menu .brand-intro-link-list {
+  padding-top: 14px;
+  margin-bottom: 50px;
+}
+
+.pn-top .mobile-menu ul li {
+  height: 32px;
+  line-height: 32px;
+}
+
+.pn-top .mobile-menu ul li a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pn-top .mobile-menu ul li a span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.pn-top .mobile-menu .service-site-link-list {
+  padding-top: 14px;
+  margin-bottom: 30px;
+  border-top: 1px solid #ffffff;
+}
+
+.pn-top .mobile-menu .service-site-link-list li a span {
+  margin-right: 6px;
+}
+
+.pn-top .mobile-menu .service-site-link-list .go-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 21px;
+  border-radius: 13px;
+  background-color: #5d52ff;
+}
+
+.pn-top .mobile-menu .service-site-link-list .go-tag span {
+  margin-top: 2px;
+  margin-right: 2px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.pn-top .mobile-menu .sns-link-list {
+  display: flex;
+}
+
+.pn-top .mobile-menu .sns-link-list li {
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+
+.pn-top .mobile-menu .sns-link-list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #453e4a;
 }
 
 /* Sidebar */
