@@ -10,6 +10,16 @@
   background-color: #F9F9F9 !important;
 }
 
+#channelWrapper {
+  margin-right: 64px;
+}
+
+@media screen and (max-width: 767px) {
+  #channelWrapper {
+    margin-right: 0;
+  }
+}
+
 #ch-plugin-launcher {
   margin-right: 64px;
 }
